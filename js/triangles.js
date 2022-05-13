@@ -28,8 +28,6 @@ var trianglesData;  // triangles data
 
 // functions
 function settingXYColorScaleDomain(data) {
-    console.log("Setting scales");
-
     xMax = d3.max(data, function (d) { return d.x + d.base; });     // sum base to make the whole figure visible
     yMax = d3.max(data, function (d) { return d.y + d.height; });   // sum height to make the whole figure visible
     cMin = d3.min(data, function (d) { return d.color; });
@@ -41,8 +39,6 @@ function settingXYColorScaleDomain(data) {
 }
 
 function drawAxes() {
-    console.log("Drawing axes");
-
     // draw the x-axis
     svg.append("g")
         .attr("class", "x axis")
