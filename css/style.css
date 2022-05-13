@@ -1,0 +1,46 @@
+body {
+  background-color: #FAF8F6;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  margin: 5%;
+}
+
+body {
+  font-family: 'Montserrat', serif;
+  color: #000000;
+  font-size: 18px;
+  margin: auto;
+}
+
+p{
+  margin-top: 5%;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.axis,
+.values {
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000000;
+  shape-rendering: geometricPrecision;
+  margin: auto;
+}
+
+.svg-style{
+  margin-right: 50px;
+}
